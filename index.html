@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leetcode Patterns</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <script defer src="js/script.js"></script>
+  <script src="js/problemesData.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- header -->
+    <header id="header">
+      <i class="fa-solid fa-bars open-mobile-menu-bar-btn"></i>
+      <div class="header-contents">
+        <i class="fa-solid fa-xmark close-mobile-menu-bar-btn"></i>
+        <div class="pick-random-prob-btn-container">
+          <button class="pick-rand-btn">Pick Random</button>
+        </div>
+        <div class="show-groups-btns">
+          <button class="g-categ-btn active">Group By Category</button>
+          <button class="g-diff-btn">Group By Difficulty</button>
+          <button class="g-rand-btn">Group Randomly</button>
+          <button class="g-fav-btn">Favorite Questions</button>
+        </div>
+      </div>
+    </header>
+    <!-- Progress -->
+    <div class="solving-progress">
+      <h3 class="progress-title"><span class="all-sol-num"></span> Questions Completed Out Of <span class="total-prob"></span></h1>
+      <div class="progress-container">
+        <div class="progress-bar"></div>
+        <span class="progress-value"></span>
+      </div>
+    </div>
+    <!-- contents -->
+    <div class="main-contents">
+      <div class="problmes-groups cat active">
+      </div>
+      <div class="problmes-groups diff">
+      </div>
+      <div class="problmes-groups rand">
+      </div>
+      <div class="problmes-groups fav">
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Copyright © 2022 <a href="https://github.com/idebbarh" class="git-link" target="_blank">Ismail Debbarh</a> All rights reserved.<br>Contact:  usamdh07@gmail.com</p>
+    </footer>
+  </div>
+</body>
+</html>
