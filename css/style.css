@@ -385,6 +385,9 @@ header .show-groups-btns button:hover {
 }
 /* End Progress */
 /* Start Main Contents */
+.main-contents{
+  min-height: 80vh;
+}
 .main-contents .problmes-groups {
   width: 100%;
   display: grid;
